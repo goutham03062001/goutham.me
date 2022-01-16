@@ -1,0 +1,121 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+.banner .left-side{
+    position: relative;
+    width: 60%;
+    background-color: rgb(3, 34, 34);
+    cursor:pointer;
+
+}
+.banner .left-side:hover{
+    box-shadow: 10px -10px 50px rgb(148, 86, 86);
+    height:auto;
+    
+}
+.banner .left-side .author{
+    text-align: center;
+    font-size: 30px !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.banner .left-side span{
+    text-align: center;
+}
+.banner .right-side{
+    position: relative;
+    width: 40%;
+    background-color: rgb(35, 53, 53);
+    cursor: pointer;
+}
+.banner .right-side:hover{
+    box-shadow: -10px 10px 50px black;
+    height:auto;
+}
+
+.skill_set{
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130vh;
+    background-color:black;
+}
+
+.front_end_tech{
+    font-size: 40px;
+    font-family: cursive;
+    color:whitesmoke;
+    margin-top: 30px;
+}
+.front_end .list_of_tech{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.front_end .list_of_tech li{
+    color:red;
+    font-size: 30px;
+    list-style-type: none;
+    font-family: 'Dongle', sans-serif;
+    
+    
+}
+
+.back_end{
+    
+    
+    font-size: 40px;
+    font-family: cursive;
+    color:whitesmoke;
+    margin-top: 30px;
+
+}
+
+.back_end .list_of_tech{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:red;
+}
+
+
+
+.back_end .list_of_tech li{
+    color:red;
+    font-size: 30px;
+    list-style-type: none;
+    font-family: 'Dongle', sans-serif;
+    
+    
+}
+
+.database{
+    font-size: 40px;
+    font-family: cursive;
+    color:whitesmoke;
+    margin-top: 30px;
+}
+.database .list_of_tech{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:red;
+}
+.database .list_of_tech li{
+    color:red;
+    font-size: 30px;
+    list-style-type: none;
+    font-family: 'Dongle', sans-serif;
+    
+    
+}

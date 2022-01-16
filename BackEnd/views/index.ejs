@@ -1,0 +1,36 @@
+<%- include('includes/links.ejs')%>
+<%- include('includes/header.ejs')%>
+
+    <div class="container mt-5">
+      <a href="/add_user" style="box-shadow: 2px 5px 10px grey;">
+                <span class="text mr-3 px-3 py-2">ADD USER <i class="fas fa-user py-2"></i></span>
+            </a>
+        <div class="row">
+
+            
+            <form action="" method="POST">
+              <table class="table mt-5">
+                <thead>
+                  <tr>
+                    <th scope="col">S.No</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Mobile</th>
+                    <th scope="col">gender</th>
+                    <th scope="col">STATUS</th>
+                    <th scope="col">ACTION</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <%- include('includes/show.ejs')%>
+                  
+                 
+                </tbody>
+              </table>
+            </form>
+        </div>
+    </div>
+
+
+<%- include('includes/links.ejs')%>

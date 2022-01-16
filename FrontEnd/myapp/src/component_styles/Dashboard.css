@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    
+}
+.text-center{
+
+    font-size: 40px;
+   
+    font-family: 'Dongle', sans-serif;
+    
+}
+
+#profile_section{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#profile_section #profile_left{
+    background-color: lightgreen;
+    width: 50%;
+    height:80vh;
+}
+
+#profile_section #profile_left #personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#profile_section #profile_left #personal li{
+    list-style-type: none;
+    line-height: 50px;
+}
+
+
+
+#profile_section #profile_right{
+    background-color: rgba(175, 147, 180, 0.212);
+    width: 50%;
+    height:80vh;
+}
+#profile_section #profile_right #professional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+#profile_section #profile_right #professional li{
+    list-style-type: none;
+    line-height: 50px;
+}

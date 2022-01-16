@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.contact_page{
+    box-shadow: 10px 10px 10px grey;
+    height: 90vh;
+    margin:10px 10px;
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+.contact_page #description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0px;
+}
+.contact_page #description .heading{
+    font-size: 40px;
+    font-family: 'Dongle', sans-serif;
+}
+.contact_page #contact_form{
+    margin-top: 50px;
+}
